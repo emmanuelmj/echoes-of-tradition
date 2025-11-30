@@ -11,6 +11,32 @@ export default {
         sm: ".1875rem", /* 3px */
       },
       colors: {
+        // Saffron & Stone palette
+        terracotta: {
+          DEFAULT: "#E35639",
+          dark: "#C94A30",
+          light: "#F06B50",
+        },
+        emerald: {
+          DEFAULT: "#2E5D4B",
+          dark: "#234539",
+          light: "#3A7560",
+        },
+        parchment: {
+          DEFAULT: "#F9F7F2",
+          dark: "#F0EDE5",
+          cream: "#FDFCF9",
+        },
+        slate: {
+          DEFAULT: "#2D3748",
+          light: "#4A5568",
+          dark: "#1A202C",
+        },
+        gold: {
+          DEFAULT: "#C5A059",
+          dark: "#A8863D",
+          light: "#D4B574",
+        },
         // Flat / base colors (regular buttons)
         background: "hsl(var(--background) / <alpha-value>)",
         foreground: "hsl(var(--foreground) / <alpha-value>)",
@@ -86,6 +112,8 @@ export default {
         sans: ["var(--font-sans)"],
         serif: ["var(--font-serif)"],
         mono: ["var(--font-mono)"],
+        cinzel: ["Cinzel", "serif"],
+        lato: ["Lato", "sans-serif"],
       },
       keyframes: {
         "accordion-down": {
@@ -96,10 +124,30 @@ export default {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        "fade-in-up": {
+          "0%": { opacity: "0", transform: "translateY(30px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        "fade-in": {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+        "slide-up": {
+          "0%": { transform: "translateY(100%)" },
+          "100%": { transform: "translateY(0)" },
+        },
+        "scale-in": {
+          "0%": { opacity: "0", transform: "scale(0.95)" },
+          "100%": { opacity: "1", transform: "scale(1)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "fade-in-up": "fade-in-up 0.6s ease-out forwards",
+        "fade-in": "fade-in 0.4s ease-out forwards",
+        "slide-up": "slide-up 0.3s ease-out forwards",
+        "scale-in": "scale-in 0.3s ease-out forwards",
       },
     },
   },
