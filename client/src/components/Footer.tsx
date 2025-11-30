@@ -15,35 +15,6 @@ export function Footer() {
           </p>
         </div>
 
-        <div className="flex items-center justify-center gap-6 mb-8">
-          <a
-            href="https://github.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-10 h-10 rounded-full border border-gold/30 flex items-center justify-center text-slate-light transition-all duration-300 hover:border-emerald hover:text-emerald hover:bg-emerald/5"
-            aria-label="Visit GitHub"
-            data-testid="link-github"
-          >
-            <i className="fab fa-github text-lg" />
-          </a>
-          <a
-            href="#"
-            className="w-10 h-10 rounded-full border border-gold/30 flex items-center justify-center text-slate-light transition-all duration-300 hover:border-emerald hover:text-emerald hover:bg-emerald/5"
-            aria-label="Visit Twitter"
-            data-testid="link-twitter"
-          >
-            <i className="fab fa-twitter text-lg" />
-          </a>
-          <a
-            href="#"
-            className="w-10 h-10 rounded-full border border-gold/30 flex items-center justify-center text-slate-light transition-all duration-300 hover:border-emerald hover:text-emerald hover:bg-emerald/5"
-            aria-label="Visit Instagram"
-            data-testid="link-instagram"
-          >
-            <i className="fab fa-instagram text-lg" />
-          </a>
-        </div>
-
         <div className="h-px w-24 bg-gold/30 mx-auto mb-6" />
 
         <p className="font-lato text-sm text-slate-light">
