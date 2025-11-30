@@ -1,0 +1,65 @@
+Project Title: Echoes of Tradition - Indo-Global Heritage Website
+Role: Expert Frontend Developer & UI Designer
+
+Goal: Create a visually stunning, detail-rich website focused on Heritage and Culture. The content scope is global but with a heavy priority on Indian traditions. The site relies on high-quality visuals paired with deep, informative captions.
+
+Tech Stack:
+- HTML5 (Semantic structure)
+- CSS3 (TailwindCSS via CDN)
+- JavaScript (Vanilla JS for interactivity)
+- Google Fonts: 'Cinzel' (for majestic/historical headings) and 'Lato' (for readable detailed captions).
+- FontAwesome (for UI icons)
+
+Design Aesthetic:
+- Theme: "Saffron & Stone."
+- Color Palette:
+  - Primary: Deep Terracotta/Saffron (#E35639)
+  - Secondary: Muted Emerald Green (#2E5D4B)
+  - Background: Off-White/Parchment (#F9F7F2)
+  - Text: Dark Slate (#2D3748)
+  - Accents: Antique Gold (#C5A059)
+- Vibe: Editorial, Museum-quality, Clean, Respectful.
+
+Core Sections:
+
+1. Hero Section:
+   - Full-screen background image (Use a placeholder of an Indian monument like Hampi or Taj Mahal).
+   - Headline: "Echoes of Tradition" in large, 'Cinzel' font.
+   - Subheadline: "Bridging the timeless heritage of India with the world."
+   - Action: A "Explore the Journey" button that smooth-scrolls to the next section.
+
+2. Introduction (The Context):
+   - A clean layout explaining the project.
+   - Text Focus: "India’s culture is a tapestry woven into the global narrative."
+   - Style: Large serif font, centered, with ornamental dividers (mandala or geometric patterns).
+
+3. Cultural Pillars (The Core - Visuals + Captions):
+   - Layout: A 3-column "Card" grid.
+   - Content Examples: "Indian Architecture," "Philosophy (Yoga/Vedas)," "Global Influences."
+   - Interaction: The cards should be image-heavy.
+   - **CRITICAL FEATURE (Hover Reveal):** On hover, the image should darken slightly, and a detailed caption (50-70 words) should slide up from the bottom. This meets the "detailed caption" requirement without cluttering the UI.
+
+4. The Visual Timeline:
+   - A vertical timeline focusing on key eras (e.g., Indus Valley, Vedic Age, Silk Road trade).
+   - Design: Alternating Left/Right layout.
+   - Visuals: Each timeline node has a circular image.
+   - Text: Next to the image, provide a "Snapshot" title and a detailed descriptive paragraph.
+
+5. "Windows to the Past" (Gallery):
+   - Layout: Masonry Grid (pinterest style).
+   - Content: Mix of Indian festivals, art forms (Kathakali, Madhubani), and global landmarks.
+   - Interaction: Clicking an image opens a Modal (Lightbox).
+   - Modal Content: The modal must split 50/50—Image on the left, **Detailed Explanation** on the right. This allows for the "detail-rich" text the user needs.
+
+6. Footer:
+   - Simple, elegant. "Designed by [Your Name]." Links to GitHub.
+
+Functionality Requirements:
+- Responsive Design: Must stack perfectly on mobile.
+- Animations: Use `AOS` (Animate On Scroll) library logic via CSS (fade-in-up) for elements as they enter the viewport.
+- Images: Use high-quality Unsplash source URLs with specific keywords (e.g., `source.unsplash.com/random/?india,temple`, `source.unsplash.com/random/?culture`).
+
+Deliverables:
+- index.html
+- style.css (containing custom Tailwind config or overrides)
+- script.js (handling the Modal and Scroll animations)
